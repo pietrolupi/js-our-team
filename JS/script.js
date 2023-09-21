@@ -48,11 +48,22 @@ const teamList = [
 }
  */
 
+const cardsContainer = document.querySelector('.cards-container');
+
+
 
 for(let teamMember of teamList){
 
-  
+  const teamImg = 'img/'+teamMember.image;
 
+  console.log(teamImg)
+  cardsContainer.innerHTML += ` <div class="card mb-5" style="width: 18rem;">
+  <img class="card-img-top" src="${teamImg}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">${teamMember.name}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">${teamMember.role}</h6>
+  </div>
+</div> `
 
 
 }
