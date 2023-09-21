@@ -1,4 +1,29 @@
 
+.main-wrapper{
+  color: whit;
+}
+
 .cards-container{
   padding: 0 200px;
+}
+
+.cards-container .card-subtitle,
+.cards-container .card-title
+{
+  color: #464646 !important; 
+ 
+}
+
+.cards-container .card-title{
+  font-weight: 600;
+}
+
+
+p{
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.container>h3{
+  font-weight: 600;
 }
