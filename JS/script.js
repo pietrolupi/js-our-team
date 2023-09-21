@@ -39,10 +39,20 @@ const teamList = [
 
 ]
 
-for(let teamMember of teamList){
+/* for(let teamMember of teamList){
 
   console.log(teamMember.name)
   console.log(teamMember.role)
   console.log(teamMember.image)
   console.log('--------------------------------------')
+}
+ */
+
+
+for(let teamMember of teamList){
+
+  
+
+
+
 }
